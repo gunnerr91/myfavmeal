@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
         accentColor: Colors.deepOrangeAccent,
-        // canvasColor: Colors.red.withOpacity(0.1),
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
         visualDensity: VisualDensity.adaptivePlatformDensity,
