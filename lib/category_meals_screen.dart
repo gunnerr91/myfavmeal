@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CategoryMealsScreen extends StatelessWidget {
+  static const routeName = "category-meals";
   @override
   Widget build(BuildContext context) {
     final routeArgs =
@@ -12,10 +13,11 @@ class CategoryMealsScreen extends StatelessWidget {
           routeArgs["title"],
         ),
       ),
-      body: Center(
-        child: Text(
-          "the receipes for the category",
-        ),
+      body: ListView.builder(
+        itemBuilder: (context, index) {
+
+        },
+        itemCount: ,
       ),
     );
   }
